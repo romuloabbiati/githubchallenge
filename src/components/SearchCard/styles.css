@@ -1,0 +1,22 @@
+.search-card-container {
+    background-color: #E6F7FF;
+    font-size: 24px;
+    padding: 54px 31px 54px 31px;
+}
+
+.search-card-container h1 {
+    font-size: 1.583em;
+    margin-bottom: 12px;
+}
+
+.search-card-container button {
+    color: white;
+    font-size: 0.66em;
+}
+
+.search-input {
+    font-size: 0.66em;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 24px;
+}

@@ -1,0 +1,19 @@
+.home-container {
+    font-size: 24px;
+    padding: 28px 0px 0px 40px;
+}
+
+.home-container h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.home-container p {
+    color: #7E7E7E;
+    font-weight: 700;
+}
+
+.home-container button {
+    color: white;
+    font-size: 0.66em;
+}
