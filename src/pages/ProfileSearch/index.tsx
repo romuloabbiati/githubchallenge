@@ -1,4 +1,5 @@
-import ResultCard from 'components/SearchCard';
+import ResultCard from 'components/ResultCard';
+import SearchCard from 'components/SearchCard';
 import './styles.css';
 
 const ProfileSearch = () => {
@@ -6,10 +7,10 @@ const ProfileSearch = () => {
     return (
         <div className='profile-search-container'>
             <div className='card-top-container'>
-                <ResultCard />
+                <SearchCard />
             </div>
             <div className='card-bottom-container'>
-
+                <ResultCard />
             </div>
         </div>
     );

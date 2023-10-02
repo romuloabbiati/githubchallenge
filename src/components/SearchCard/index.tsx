@@ -6,15 +6,18 @@ const SearchCard = () => {
       <h1>Encontre um perfil Github</h1>
       <div className="form-container">
         <form action="#">
-          <input 
-            type="text" 
-            name="user" 
+          <input
+            type="text"
+            name="user"
             className="search-input"
             placeholder="Usuário Github"
+            onChange={() => {}}
           />
         </form>
+        <button type="submit" className="btn btn-primary btn-lg">
+          Encontrar
+        </button>
       </div>
-      <button type="submit" className="btn btn-primary btn-lg">Encontrar</button>
     </div>
   );
 };
