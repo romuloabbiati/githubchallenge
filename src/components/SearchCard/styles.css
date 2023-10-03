@@ -12,6 +12,12 @@
 .search-card-container button {
     color: white;
     font-size: 0.66em;
+    width: 101px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .search-input {
